@@ -13,9 +13,9 @@ const ZomatoCards = ({ item, del }) => {
         <div className="flex justify-between items-center">
           <h2 className="text-lg font-bold text-gray-800">{item.title}</h2>
 
-          <span className="bg-green-600 text-white text-xs px-2 py-1 rounded-md">
+          <div className="bg-green-600 text-white px-2 py-1 rounded-md text-xs font-semibold flex-shrink-0">
             ★ {item.rating}
-          </span>
+          </div>
         </div>
 
         <p className="text-gray-500 text-sm mt-1">
